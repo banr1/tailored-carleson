@@ -1,5 +1,6 @@
 import Carleson.Classical.Approximation
 import Carleson.Classical.ControlApproximationEffect
+import LeanAtlas.Metadata
 
 /- This file contains the proof of the classical Carleson theorem from Section 11.1. -/
 
@@ -180,6 +181,7 @@ end
 
 /- **Carleson's theorem** asserting a.e. point-wise convergence of the partial Fourier sums for
 periodic continuous functions. -/
+@[formalMeta "Carleson's Theorem" "Almost everywhere pointwise convergence of partial Fourier sums for periodic continuous functions" "Theorem 1.0.1" mainTheorem]
 theorem classical_carleson {f : ℝ → ℂ} (cont_f : Continuous f) (periodic_f : f.Periodic (2 * π)) :
     ∀ᵐ x, Filter.Tendsto (S_ · f x) Filter.atTop (nhds (f x)) := by
   -- Reduce to a.e. convergence on [0,2π]
