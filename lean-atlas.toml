@@ -321,4 +321,4 @@ name = "Carleson.TwoSidedCarleson.RestrictedWeakType"
 name = "Carleson.TwoSidedCarleson.WeakCalderonZygmund"
 
 [atlas]
-root = "../lean-atlas"
+root = "../lean-atlas-for-carleson"
