@@ -1,0 +1,324 @@
+[project]
+name = "Carleson"
+namespace = "Carleson"
+
+[[modules]]
+name = "Carleson.Antichain.AntichainOperator"
+
+[[modules]]
+name = "Carleson.Antichain.AntichainTileCount"
+
+[[modules]]
+name = "Carleson.Antichain.Basic"
+
+[[modules]]
+name = "Carleson.Antichain.TileCorrelation"
+
+[[modules]]
+name = "Carleson.Calculations"
+
+[[modules]]
+name = "Carleson.Classical.Approximation"
+
+[[modules]]
+name = "Carleson.Classical.Basic"
+
+[[modules]]
+name = "Carleson.Classical.CarlesonHunt"
+
+[[modules]]
+name = "Carleson.Classical.CarlesonOnTheRealLine"
+
+[[modules]]
+name = "Carleson.Classical.CarlesonOperatorReal"
+
+[[modules]]
+name = "Carleson.Classical.ClassicalCarleson"
+
+[[modules]]
+name = "Carleson.Classical.ControlApproximationEffect"
+
+[[modules]]
+name = "Carleson.Classical.DirichletKernel"
+
+[[modules]]
+name = "Carleson.Classical.Helper"
+
+[[modules]]
+name = "Carleson.Classical.HilbertKernel"
+
+[[modules]]
+name = "Carleson.Classical.HilbertStrongType"
+
+[[modules]]
+name = "Carleson.Classical.SpectralProjectionBound"
+
+[[modules]]
+name = "Carleson.Classical.VanDerCorput"
+
+[[modules]]
+name = "Carleson.Defs"
+
+[[modules]]
+name = "Carleson.Discrete.Defs"
+
+[[modules]]
+name = "Carleson.Discrete.ExceptionalSet"
+
+[[modules]]
+name = "Carleson.Discrete.ForestComplement"
+
+[[modules]]
+name = "Carleson.Discrete.ForestUnion"
+
+[[modules]]
+name = "Carleson.Discrete.MainTheorem"
+
+[[modules]]
+name = "Carleson.Discrete.SumEstimates"
+
+[[modules]]
+name = "Carleson.DoublingMeasure"
+
+[[modules]]
+name = "Carleson.FinitaryCarleson"
+
+[[modules]]
+name = "Carleson.Forest"
+
+[[modules]]
+name = "Carleson.ForestOperator.AlmostOrthogonality"
+
+[[modules]]
+name = "Carleson.ForestOperator.Forests"
+
+[[modules]]
+name = "Carleson.ForestOperator.L2Estimate"
+
+[[modules]]
+name = "Carleson.ForestOperator.LargeSeparation"
+
+[[modules]]
+name = "Carleson.ForestOperator.PointwiseEstimate"
+
+[[modules]]
+name = "Carleson.ForestOperator.QuantativeEstimate"
+
+[[modules]]
+name = "Carleson.ForestOperator.RemainingTiles"
+
+[[modules]]
+name = "Carleson.GridStructure"
+
+[[modules]]
+name = "Carleson.HolderNorm"
+
+[[modules]]
+name = "Carleson.HolderVanDerCorput"
+
+[[modules]]
+name = "Carleson.LipschitzNorm"
+
+[[modules]]
+name = "Carleson.MetricCarleson.Basic"
+
+[[modules]]
+name = "Carleson.MetricCarleson.Linearized"
+
+[[modules]]
+name = "Carleson.MetricCarleson.Main"
+
+[[modules]]
+name = "Carleson.MetricCarleson.Truncation"
+
+[[modules]]
+name = "Carleson.MinLayerTiles"
+
+[[modules]]
+name = "Carleson.Operators"
+
+[[modules]]
+name = "Carleson.ProofData"
+
+[[modules]]
+name = "Carleson.Psi"
+
+[[modules]]
+name = "Carleson.TileExistence"
+
+[[modules]]
+name = "Carleson.TileStructure"
+
+[[modules]]
+name = "Carleson.ToMathlib.Analysis.Convolution"
+
+[[modules]]
+name = "Carleson.ToMathlib.Analysis.MeanInequalitiesPow"
+
+[[modules]]
+name = "Carleson.ToMathlib.Annulus"
+
+[[modules]]
+name = "Carleson.ToMathlib.BoundedCompactSupport"
+
+[[modules]]
+name = "Carleson.ToMathlib.BoundedFiniteSupport"
+
+[[modules]]
+name = "Carleson.ToMathlib.CoveredByBalls"
+
+[[modules]]
+name = "Carleson.ToMathlib.Data.ENNReal"
+
+[[modules]]
+name = "Carleson.ToMathlib.Data.Finset.Lattice.Fold"
+
+[[modules]]
+name = "Carleson.ToMathlib.Data.NNReal"
+
+[[modules]]
+name = "Carleson.ToMathlib.Data.Real.ConjExponents"
+
+[[modules]]
+name = "Carleson.ToMathlib.ENorm"
+
+[[modules]]
+name = "Carleson.ToMathlib.HardyLittlewood"
+
+[[modules]]
+name = "Carleson.ToMathlib.Interval"
+
+[[modules]]
+name = "Carleson.ToMathlib.LorentzType"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.AEEqFun"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.L1Integrable"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LocallyIntegrable"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LorentzSeminorm.Basic"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LorentzSeminorm.Defs"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LorentzSeminorm.TriangleInequality"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LorentzSpace.Basic"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LpSeminorm.Basic"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LpSeminorm.TriangleInequality"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LpSpace.ContinuousFunctions"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.LpSpace.Indicator"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Function.SimpleFunc"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Integral.Average"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Integral.IntegrableOn"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Integral.Lebesgue"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Integral.MeanInequalities"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Integral.Periodic"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Measure.AEMeasurable"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Measure.ENNReal"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Measure.Haar.Unique"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Measure.IsDoubling"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Measure.NNReal"
+
+[[modules]]
+name = "Carleson.ToMathlib.MeasureTheory.Measure.Prod"
+
+[[modules]]
+name = "Carleson.ToMathlib.MinLayer"
+
+[[modules]]
+name = "Carleson.ToMathlib.Misc"
+
+[[modules]]
+name = "Carleson.ToMathlib.Order.CompleteLattice.Basic"
+
+[[modules]]
+name = "Carleson.ToMathlib.Order.ConditionallyCompleteLattice.Basic"
+
+[[modules]]
+name = "Carleson.ToMathlib.Order.LiminfLimsup"
+
+[[modules]]
+name = "Carleson.ToMathlib.RealInterpolation.InterpolatedExponents"
+
+[[modules]]
+name = "Carleson.ToMathlib.RealInterpolation.LorentzInterpolation"
+
+[[modules]]
+name = "Carleson.ToMathlib.RealInterpolation.Main"
+
+[[modules]]
+name = "Carleson.ToMathlib.RealInterpolation.Minkowski"
+
+[[modules]]
+name = "Carleson.ToMathlib.RealInterpolation.Misc"
+
+[[modules]]
+name = "Carleson.ToMathlib.Rearrangement"
+
+[[modules]]
+name = "Carleson.ToMathlib.Topology.Instances.AddCircle.Defs"
+
+[[modules]]
+name = "Carleson.ToMathlib.Topology.Order.Basic"
+
+[[modules]]
+name = "Carleson.ToMathlib.WeakType"
+
+[[modules]]
+name = "Carleson.TwoSidedCarleson.Basic"
+
+[[modules]]
+name = "Carleson.TwoSidedCarleson.MainTheorem"
+
+[[modules]]
+name = "Carleson.TwoSidedCarleson.NontangentialOperator"
+
+[[modules]]
+name = "Carleson.TwoSidedCarleson.RestrictedWeakType"
+
+[[modules]]
+name = "Carleson.TwoSidedCarleson.WeakCalderonZygmund"
+
+[atlas]
+root = "../lean-atlas"

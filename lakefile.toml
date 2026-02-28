@@ -21,5 +21,12 @@ name = "checkdecls"
 git = "https://github.com/PatrickMassot/checkdecls.git"
 rev = "master"
 
+[[require]]
+name = "lean-atlas"
+path = "../lean-atlas"
+
 [[lean_lib]]
 name = "Carleson"
+
+[atlas]
+root = "../lean-atlas"
