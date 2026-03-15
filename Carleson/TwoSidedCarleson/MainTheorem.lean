@@ -1,5 +1,6 @@
 import Carleson.MetricCarleson.Main
 import Carleson.TwoSidedCarleson.NontangentialOperator
+import LeanAtlas.Metadata
 
 open MeasureTheory Set Bornology Function ENNReal Metric
 open scoped NNReal
@@ -23,6 +24,7 @@ variable [CompatibleFunctions ℝ X (defaultA a)] [IsCancellative X (defaultτ a
 /-! ## Theorem 10.0.1 -/
 
 /- Theorem 10.0.1 -/
+@[formalMeta "Two-Sided Metric Carleson" "Carleson's theorem for two-sided kernels in metric spaces" "Theorem 10.0.1" mainTheorem]
 theorem two_sided_metric_carleson (ha : 4 ≤ a) (hq : q ∈ Ioc 1 2) (hqq' : q.HolderConjugate q')
     (hF : MeasurableSet F) (hG : MeasurableSet G)
     (hT : ∀ r > 0, HasBoundedStrongType (czOperator K r) 2 2 volume volume (C_Ts a))

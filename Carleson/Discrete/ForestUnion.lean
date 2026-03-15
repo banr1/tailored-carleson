@@ -3,6 +3,7 @@ import Carleson.Discrete.SumEstimates
 import Carleson.ForestOperator.Forests
 import Carleson.MinLayerTiles
 import Mathlib.Analysis.Complex.ExponentialBounds
+import LeanAtlas.Metadata
 
 open MeasureTheory Measure NNReal Metric Complex Set
 open scoped ENNReal
@@ -1022,6 +1023,7 @@ lemma C5_1_2_optimized_le : C5_1_2_optimized a nnq ≤ C5_1_2 a nnq := by
 /-- Lemma 5.1.2 in the blueprint: the integral of the Carleson sum over the set which can
 naturally be decomposed as a union of forests can be controlled, thanks to the estimate for
 a single forest. -/
+@[formalMeta "Forest Union" "Bound on Carleson sum over tiles decomposable into forests" "Lemma 5.1.2" mainTheorem]
 lemma forest_union {f : X → ℂ} (hf : ∀ x, ‖f x‖ ≤ F.indicator 1 x) (h'f : Measurable f) :
     ∫⁻ x in G \ G', ‖carlesonSum 𝔓₁ f x‖ₑ ≤
     C5_1_2 a nnq * (volume G) ^ (1 - q⁻¹) * (volume F) ^ (q⁻¹) := by

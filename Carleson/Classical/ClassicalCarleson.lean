@@ -11,6 +11,7 @@ noncomputable section
 local notation "S_" => partialFourierSum
 
 /- Theorem 1.1 (Classical Carleson) -/
+@[formalMeta "Exceptional Set Carleson" "Existence of a small exceptional set outside which partial Fourier sums converge" "Theorem 1.1" mainTheorem]
 theorem exceptional_set_carleson {f : ℝ → ℂ}
     (cont_f : Continuous f) (periodic_f : f.Periodic (2 * π))
     {ε : ℝ} (εpos : 0 < ε) :

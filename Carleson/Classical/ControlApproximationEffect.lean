@@ -1,4 +1,5 @@
 import Carleson.Classical.CarlesonOnTheRealLine
+import LeanAtlas.Metadata
 
 /- This file contains most of Section 11.6 (The error bound) from the blueprint.
    The main result is control_approximation_effect.
@@ -528,6 +529,7 @@ lemma C_control_approximation_effect_eq {ε : ℝ} {δ : ℝ} (ε_nonneg : 0 ≤
   all_goals linarith [pi_pos]
 
 /- This is Lemma 11.6.4 (partial Fourier sums of small) in the blueprint.-/
+@[formalMeta "Control Approximation Effect" "Bound on partial Fourier sums of small functions via exceptional set" "Lemma 11.6.4" mainTheorem]
 lemma control_approximation_effect {ε : ℝ} (εpos : 0 < ε) {δ : ℝ} (hδ : 0 < δ)
     {h : ℝ → ℂ} (h_measurable : Measurable h)
     (h_periodic : h.Periodic (2 * π)) (h_bound : ∀ x, ‖h x‖ ≤ δ) :

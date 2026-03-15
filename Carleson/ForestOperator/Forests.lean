@@ -3,6 +3,7 @@ import Carleson.ForestOperator.RemainingTiles
 import Carleson.ToMathlib.MeasureTheory.Function.L1Integrable
 import Carleson.ToMathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap
 import Mathlib.Data.Set.Pairwise.Chain
+import LeanAtlas.Metadata
 
 open ShortVariables TileStructure
 variable {X : Type*} {a : ℕ} {q : ℝ} {K : X → X → ℂ} {σ₁ σ₂ : X → ℤ} {F G : Set X}
@@ -1002,6 +1003,7 @@ Has value `2 ^ (440 * a ^ 3 - (q - 1) / q * n)` in the blueprint. -/
 irreducible_def C2_0_4 (a : ℕ) (q : ℝ) (n : ℕ) : ℝ≥0 := C2_0_4_base a * 2 ^ (-(q - 1) / q * n)
 
 open scoped Classical in
+@[formalMeta "Forest Operator" "Bound on the forest operator in terms of density and Lp norms" "Proposition 2.0.4" mainTheorem]
 theorem forest_operator {n : ℕ} (𝔉 : Forest X n) {f g : X → ℂ}
     (hf : Measurable f) (h2f : ∀ x, ‖f x‖ ≤ F.indicator 1 x)
     (hg : Measurable g) (h2g : ∀ x, ‖g x‖ ≤ G.indicator 1 x) :

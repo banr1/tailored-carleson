@@ -1,6 +1,7 @@
 import Carleson.Discrete.ExceptionalSet
 import Carleson.Discrete.ForestComplement
 import Carleson.Discrete.ForestUnion
+import LeanAtlas.Metadata
 
 open MeasureTheory NNReal Set
 open scoped ShortVariables
@@ -38,6 +39,7 @@ lemma C2_0_2_pos : 0 < C2_0_2 a nnq := by
   apply le_C2_0_2 (four_le_a X) (q_mem_Ioc X)
 
 variable (X) in
+@[formalMeta "Discrete Carleson" "Discrete version of Carleson's theorem with forest decomposition" "Proposition 2.0.2" mainTheorem]
 theorem discrete_carleson :
     ∃ G', MeasurableSet G' ∧ 2 * volume G' ≤ volume G ∧
     ∀ f : X → ℂ, Measurable f → (∀ x, ‖f x‖ ≤ F.indicator 1 x) →

@@ -1,4 +1,5 @@
 import Carleson.MetricCarleson.Linearized
+import LeanAtlas.Metadata
 
 open scoped NNReal
 open MeasureTheory Set ENNReal Metric
@@ -194,6 +195,7 @@ lemma BST_LNT_of_BST_NT {Q : SimpleFunc X (Θ X)}
       apply le_iSup₂ _ mx'
 
 /-- Theorem 1.1.1 -/
+@[formalMeta "Metric Carleson" "Carleson's theorem for one-sided kernels in metric spaces" "Theorem 1.1.1" mainTheorem]
 theorem metric_carleson [IsCancellative X (defaultτ a)]
     (hq : q ∈ Ioc 1 2) (hqq' : q.HolderConjugate q') (mF : MeasurableSet F) (mG : MeasurableSet G)
     (mf : Measurable f) (nf : (‖f ·‖) ≤ F.indicator 1)

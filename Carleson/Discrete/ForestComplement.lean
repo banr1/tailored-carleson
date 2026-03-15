@@ -3,6 +3,7 @@ import Carleson.Discrete.Defs
 import Carleson.Discrete.SumEstimates
 import Mathlib.Analysis.Complex.ExponentialBounds
 import Mathlib.Combinatorics.Enumerative.DoubleCounting
+import LeanAtlas.Metadata
 
 open MeasureTheory Measure NNReal Metric Complex Set
 open scoped ENNReal
@@ -1161,6 +1162,7 @@ lemma forest_complement_optimized
 /-- Lemma 5.1.3, proving the bound on the integral of the Carleson sum over all leftover tiles
 which do not fit in a forest. It follows from a careful grouping of these tiles into finitely
 many antichains. -/
+@[formalMeta "Forest Complement" "Bound on Carleson sum over leftover tiles via antichain grouping" "Lemma 5.1.3" mainTheorem]
 lemma forest_complement {f : X → ℂ} (hf : ∀ x, ‖f x‖ ≤ F.indicator 1 x) (h'f : Measurable f) :
     ∫⁻ x in G \ G', ‖carlesonSum 𝔓₁ᶜ f x‖ₑ ≤
     C5_1_3 a nnq * volume G ^ (1 - q⁻¹) * volume F ^ q⁻¹ := by
